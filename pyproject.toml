@@ -1,0 +1,14 @@
+[project]
+name = "visionqueue"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "passlib>=1.7.4",
+    "psycopg2-binary>=2.9.10",
+    "pytest>=8.3.5",
+    "python-jose>=3.4.0",
+    "sqlalchemy>=2.0.40",
+]
