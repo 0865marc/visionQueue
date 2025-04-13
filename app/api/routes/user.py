@@ -1,7 +1,7 @@
 import os
 
 from fastapi import APIRouter, Depends, HTTPException
-from app.database.db import get_db
+from app.db.db import get_db
 from sqlalchemy.orm import Session
 from datetime import timedelta
 
